@@ -1,0 +1,127 @@
+/* Responsive Styles */
+
+/* Tablettes */
+@media screen and (max-width: 992px) {
+    .partners-grid {
+        gap: 2rem;
+    }
+    
+    .partners-row {
+        gap: 2rem;
+    }
+    h1 {
+        font-size: 2rem;
+    }
+    
+    h2 {
+        font-size: 1.8rem;
+    }
+    
+    .hero {
+        height: auto;
+        padding: 100px 0;
+    }
+    
+    .about-content {
+        flex-direction: column;
+        gap: 30px;
+    }
+    
+    .contact-content {
+        flex-direction: column;
+    }
+    
+    .footer-content {
+        flex-direction: column;
+        gap: 20px;
+        text-align: center;
+    }
+}
+
+/* Mobiles */
+@media screen and (max-width: 768px) {
+    .partners-grid {
+        gap: 3rem;
+    }
+    
+    .partners-row {
+        flex-direction: column;
+        gap: 3rem;
+    }
+    
+    .partner-logo {
+        width: 120px;
+        height: 120px;
+    }
+    
+    .partner-logo img {
+        width: 60px;
+        height: 60px;
+    }
+    body {
+        font-size: 14px;
+    }
+    
+    h1 {
+        font-size: 1.8rem;
+    }
+    
+    h2 {
+        font-size: 1.5rem;
+    }
+    
+    section {
+        padding: 60px 0;
+    }
+    
+    .nav-links {
+        position: absolute;
+        right: 0;
+        top: 80px;
+        background-color: var(--secondary-color);
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        padding: 20px 0;
+        transform: translateY(-150%);
+        transition: var(--transition);
+        box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    }
+    
+    .nav-links.active {
+        transform: translateY(0);
+    }
+    
+    .nav-links li {
+        margin: 10px 0;
+    }
+    
+    .burger {
+        display: block;
+    }
+    
+    .hero-buttons {
+        flex-direction: column;
+        gap: 15px;
+    }
+    
+    .services-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .portfolio-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* Petits mobiles */
+@media screen and (max-width: 480px) {
+    h1 {
+        font-size: 1.5rem;
+    }
+    
+    .btn {
+        padding: 10px 20px;
+        font-size: 0.9rem;
+    }
+}

@@ -1,0 +1,15 @@
+Pour compléter le site, vous devez ajouter les images suivantes dans ce dossier:
+
+1. placeholder-1.jpg - Image pour "Photographie corporate"
+2. placeholder-2.jpg - Image pour "Vidéo promotionnelle"
+3. placeholder-3.jpg - Image pour "Site web e-commerce"
+4. placeholder-4.jpg - Image pour "Campagne réseaux sociaux"
+5. placeholder-5.jpg - Image pour "Identité visuelle"
+
+Vous pouvez utiliser vos propres images de projets ou créer des images temporaires sur des sites comme:
+- https://placeholder.com/
+- https://picsum.photos/
+- https://placehold.co/
+
+Exemple d'URL pour créer une image placeholder de 600x400 pixels:
+https://placehold.co/600x400

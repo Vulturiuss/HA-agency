@@ -1,0 +1,15 @@
+User-agent: *
+Allow: /
+Sitemap: https://haagency.fr/sitemap.xml
+
+# Permettre à tous les robots d'explorer le site
+User-agent: *
+Disallow:
+
+# Permettre à Google de tout explorer
+User-agent: Googlebot
+Allow: /
+
+# Permettre à Bing de tout explorer
+User-agent: Bingbot
+Allow: /
